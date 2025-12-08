@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.text.InputType
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.projectuas.auth.RegisterActivity // Pastikan import ini sesuai package Anda
 import com.example.projectuas.dashboard.DashboardActivity
 import com.example.projectuas.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -32,9 +33,18 @@ class LoginActivity : AppCompatActivity() {
             togglePasswordVisibility()
         }
 
-        // Login
+        // Login Action
         bind.btnLogin.setOnClickListener {
             loginProcess()
+        }
+
+        // ===========================================
+        // 🔥 TAMBAHAN LOGIC KE REGISTER DI SINI 🔥
+        // ===========================================
+        bind.tvRegister.setOnClickListener {
+            // Arahkan ke halaman RegisterActivity
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
     }
 
