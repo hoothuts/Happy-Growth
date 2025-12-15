@@ -27,7 +27,7 @@
             android:id="@+id/imgLogo"
             android:layout_width="200dp"
             android:layout_height="90dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/title"
             android:scaleType="fitCenter" />
 
         <ProgressBar

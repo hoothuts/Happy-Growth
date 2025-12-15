@@ -37,6 +37,10 @@
             android:name=".auth.RegisterActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ui.parenting.ParentingActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

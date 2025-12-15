@@ -7,6 +7,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.projectuas.LoginActivity
 import com.example.projectuas.databinding.ActivityDashboardBinding
+import com.example.projectuas.ui.parenting.ParentingActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -78,7 +79,8 @@ class DashboardActivity : AppCompatActivity() {
         // --- Bagian Menu (Logic sama seperti sebelumnya) ---
 
         binding.cardMateriParenting.setOnClickListener {
-            Toast.makeText(this, "Menu Materi Parenting", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, ParentingActivity::class.java)
+            startActivity(intent)
         }
 
         binding.cardMateriAnak.setOnClickListener {
