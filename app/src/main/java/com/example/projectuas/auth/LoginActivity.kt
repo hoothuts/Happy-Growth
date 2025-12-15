@@ -38,9 +38,7 @@ class LoginActivity : AppCompatActivity() {
             loginProcess()
         }
 
-        // ===========================================
-        // 🔥 TAMBAHAN LOGIC KE REGISTER DI SINI 🔥
-        // ===========================================
+//        Register
         bind.tvRegister.setOnClickListener {
             // Arahkan ke halaman RegisterActivity
             val intent = Intent(this, RegisterActivity::class.java)
@@ -74,12 +72,12 @@ class LoginActivity : AppCompatActivity() {
             return
         }
 
-        // 🔥 Login dengan Firebase Auth
+        // login ke firebase
         auth.signInWithEmailAndPassword(email, password)
             .addOnSuccessListener { result ->
                 val uid = result.user?.uid ?: return@addOnSuccessListener
 
-                // 🔥 Ambil data user dari Firestore
+                // ambil data dari firestore
                 firestore.collection("users")
                     .document(uid)
                     .get()
@@ -93,7 +91,7 @@ class LoginActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT
                             ).show()
 
-                            // Pindah ke dashboard
+                            // pindah ke dashboard
                             val intent = Intent(this, DashboardActivity::class.java)
                             intent.putExtra("userName", name)
                             intent.putExtra("email", email)
