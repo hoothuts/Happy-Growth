@@ -37,6 +37,34 @@
             android:name=".auth.RegisterActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".profile.ChangePasswordActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".content.MateriParentingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".content.RewardPointActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".content.AssignmentListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".content.QuizActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".content.MateriAnakActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

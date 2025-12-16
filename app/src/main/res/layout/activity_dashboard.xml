@@ -105,7 +105,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/ic_launcher_foreground"
+                            android:src="@drawable/ic_materi_parenting"
                             app:tint="@color/blue_primary"/> <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/ic_launcher_foreground"
+                            android:src="@drawable/ic_materi_anak"
                             app:tint="@color/blue_primary"/> <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/ic_launcher_foreground"
+                            android:src="@drawable/ic_tugas"
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -193,7 +193,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/ic_launcher_foreground"
+                            android:src="@drawable/ic_reward"
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/ic_launcher_foreground"
+                            android:src="@drawable/ic_keluar"
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -253,12 +253,42 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:src="@drawable/ic_launcher_foreground"
+                            android:src="@drawable/ic_maps"
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Maps Psikolog"
+                            android:textSize="14sp"
+                            android:textColor="@color/gray_text"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardChangePassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/white">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="20dp"
+                        android:gravity="center_vertical">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_lock"
+                            app:tint="@color/blue_primary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Change Password"
                             android:textSize="14sp"
                             android:textColor="@color/gray_text"
                             android:layout_marginTop="12dp"/>

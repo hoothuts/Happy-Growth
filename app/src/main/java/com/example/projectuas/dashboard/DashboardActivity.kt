@@ -56,7 +56,9 @@ class DashboardActivity : AppCompatActivity() {
 
         // Setup klik pada foto profil
         binding.imgProfile.setOnClickListener {
-            Toast.makeText(this, "Profil User", Toast.LENGTH_SHORT).show()
+            // Navigate to ProfileActivity
+            val intent = Intent(this, com.example.projectuas.profile.ProfileActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -78,23 +80,27 @@ class DashboardActivity : AppCompatActivity() {
         // --- Bagian Menu (Logic sama seperti sebelumnya) ---
 
         binding.cardMateriParenting.setOnClickListener {
-            Toast.makeText(this, "Menu Materi Parenting", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, com.example.projectuas.content.MateriParentingActivity::class.java))
         }
 
         binding.cardMateriAnak.setOnClickListener {
-            Toast.makeText(this, "Menu Materi Anak", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, com.example.projectuas.content.MateriAnakActivity::class.java))
         }
 
         binding.cardTugas.setOnClickListener {
-            Toast.makeText(this, "Menu Tugas", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, com.example.projectuas.content.AssignmentListActivity::class.java))
         }
 
         binding.cardReward.setOnClickListener {
-            Toast.makeText(this, "Menu Reward Point", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, com.example.projectuas.content.RewardPointActivity::class.java))
         }
 
         binding.cardMaps.setOnClickListener {
             Toast.makeText(this, "Maps Psikolog", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.cardChangePassword.setOnClickListener {
+             startActivity(Intent(this, com.example.projectuas.profile.ChangePasswordActivity::class.java))
         }
 
         // --- LOGOUT ACTION ---
