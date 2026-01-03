@@ -31,7 +31,7 @@ class MateriAnakAdapter(
 
         holder.imgMateri.setImageResource(item.imageResId)
         holder.tvTitle.text = item.title
-        holder.tvDescription.text = item.shortDescription
+        holder.tvDescription.text = item.description
 
         holder.itemView.setOnClickListener {
             onClick(item)
