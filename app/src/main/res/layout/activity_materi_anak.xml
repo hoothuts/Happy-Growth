@@ -45,7 +45,11 @@
         android:id="@+id/cardDays"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="-20dp" 
+=======
+        android:layout_marginTop="-20dp"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
         app:cardCornerRadius="20dp"
         app:cardElevation="4dp"
         app:cardBackgroundColor="@color/white"
@@ -71,7 +75,11 @@
                 android:textSize="12sp"
                 android:background="@drawable/bg_pill_white"
                 android:backgroundTint="#F0F0F0"/> <!-- Default inactive -->
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
             <TextView
                 android:id="@+id/tvDay2"
                 android:layout_width="0dp"

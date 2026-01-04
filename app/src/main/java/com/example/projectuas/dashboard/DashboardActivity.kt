@@ -7,6 +7,10 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.projectuas.LoginActivity
 import com.example.projectuas.databinding.ActivityDashboardBinding
+<<<<<<< HEAD
+=======
+import com.example.projectuas.parenting.ParentingActivity
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -56,9 +60,13 @@ class DashboardActivity : AppCompatActivity() {
 
         // Setup klik pada foto profil
         binding.imgProfile.setOnClickListener {
+<<<<<<< HEAD
             // Navigate to ProfileActivity
             val intent = Intent(this, com.example.projectuas.profile.ProfileActivity::class.java)
             startActivity(intent)
+=======
+            Toast.makeText(this, "Profil User", Toast.LENGTH_SHORT).show()
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
         }
     }
 
@@ -80,6 +88,7 @@ class DashboardActivity : AppCompatActivity() {
         // --- Bagian Menu (Logic sama seperti sebelumnya) ---
 
         binding.cardMateriParenting.setOnClickListener {
+<<<<<<< HEAD
             startActivity(Intent(this, com.example.projectuas.content.MateriParentingActivity::class.java))
         }
 
@@ -93,16 +102,36 @@ class DashboardActivity : AppCompatActivity() {
 
         binding.cardReward.setOnClickListener {
             startActivity(Intent(this, com.example.projectuas.content.RewardPointActivity::class.java))
+=======
+            val intent = Intent(this, ParentingActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.cardMateriAnak.setOnClickListener {
+            val intent = Intent(this, com.example.projectuas.anak.MateriAnakActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.cardTugas.setOnClickListener {
+            Toast.makeText(this, "Menu Tugas", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.cardReward.setOnClickListener {
+            Toast.makeText(this, "Menu Reward Point", Toast.LENGTH_SHORT).show()
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
         }
 
         binding.cardMaps.setOnClickListener {
             Toast.makeText(this, "Maps Psikolog", Toast.LENGTH_SHORT).show()
         }
 
+<<<<<<< HEAD
         binding.cardChangePassword.setOnClickListener {
              startActivity(Intent(this, com.example.projectuas.profile.ChangePasswordActivity::class.java))
         }
 
+=======
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
         // --- LOGOUT ACTION ---
         binding.cardKeluar.setOnClickListener {
             showLogoutConfirmation()

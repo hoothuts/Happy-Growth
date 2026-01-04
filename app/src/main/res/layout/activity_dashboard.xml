@@ -105,7 +105,11 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+<<<<<<< HEAD
                             android:src="@drawable/ic_materi_parenting"
+=======
+                            android:src="@drawable/ic_launcher_foreground"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
                             app:tint="@color/blue_primary"/> <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -134,7 +138,11 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+<<<<<<< HEAD
                             android:src="@drawable/ic_materi_anak"
+=======
+                            android:src="@drawable/ic_launcher_foreground"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
                             app:tint="@color/blue_primary"/> <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -163,7 +171,11 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+<<<<<<< HEAD
                             android:src="@drawable/ic_tugas"
+=======
+                            android:src="@drawable/ic_launcher_foreground"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -193,7 +205,11 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+<<<<<<< HEAD
                             android:src="@drawable/ic_reward"
+=======
+                            android:src="@drawable/ic_launcher_foreground"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -223,7 +239,11 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+<<<<<<< HEAD
                             android:src="@drawable/ic_keluar"
+=======
+                            android:src="@drawable/ic_launcher_foreground"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -253,7 +273,11 @@
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
+<<<<<<< HEAD
                             android:src="@drawable/ic_maps"
+=======
+                            android:src="@drawable/ic_launcher_foreground"
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
                             app:tint="@color/blue_primary"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -265,6 +289,7 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
+<<<<<<< HEAD
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardChangePassword"
                     android:layout_width="0dp"
@@ -295,6 +320,8 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
+=======
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
             </GridLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

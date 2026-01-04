@@ -38,6 +38,7 @@
             android:exported="false" />
 
         <activity
+<<<<<<< HEAD
             android:name=".profile.ProfileActivity"
             android:exported="false" />
 
@@ -64,6 +65,22 @@
         <activity
             android:name=".content.MateriAnakActivity"
             android:exported="false" />
+=======
+            android:name=".parenting.ParentingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".parenting.ArticleDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".anak.MateriAnakActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".anak.DetailMateriAnakActivity"
+            android:exported="false"/>
+>>>>>>> 0de171e1afb8f26ef7249800484d324f6fe0543a
 
     </application>
 
